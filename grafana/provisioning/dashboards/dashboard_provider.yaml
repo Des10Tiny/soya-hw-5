@@ -1,0 +1,13 @@
+apiVersion: 1
+
+providers:
+  - name: "Cinema Analytics"
+    orgId: 1
+    folder: "Online Cinema"
+    folderUid: "online-cinema"
+    type: file
+    disableDeletion: false
+    updateIntervalSeconds: 10
+    allowUiUpdates: true
+    options:
+      path: /etc/grafana/dashboards
